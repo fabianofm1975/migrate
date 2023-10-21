@@ -1,16 +1,16 @@
-        name: vault-database-prd
-        dbm: false
-        host: backstage-unified-tools-prd.cxrgwqogfyf1.us-east-1.rds.amazonaws.com
-        port: 5432
-        username: 'ENC[k8s_secret@datadog/postgres-secrets/DATADOG_BACKSTAGE_DB_USER]'
-        password: 'ENC[k8s_secret@datadog/postgres-secrets/DATADOG_BACKSTAGE_DB_PASSWORD]'
-        tags:
-          - 'cost-center:820150020'
-          - 'env:production'
-          - 'project:backstage'
-          - 'owner:sre-platform'
-          - 'service:backstage'
-          - 'repository:pagarme-platform-k8s-infrastructure'
-          - 'support:foundation-reliability-payments'
-          - 'dbinstanceidentifier:backstage-unified-tools-prd'
-          - 'dbinstace:backstage-unified-tools-prd'
+name: vault-database-prd
+dbm: false
+host: backstage-unified-tools-prd.cxrgwqogfyf1.us-east-1.rds.amazonaws.com
+port: 5432
+username: 'ENC[k8s_secret@datadog/postgres-secrets/DATADOG_BACKSTAGE_DB_USER]'
+password: 'ENC[k8s_secret@datadog/postgres-secrets/DATADOG_BACKSTAGE_DB_PASSWORD]'
+tags:
+    - 'cost-center:820150020'
+    - 'env:production'
+    - 'project:backstage'
+    - 'owner:sre-platform'
+    - 'service:backstage'
+    - 'repository:pagarme-platform-k8s-infrastructure'
+    - 'support:foundation-reliability-payments'
+    - 'dbinstanceidentifier:backstage-unified-tools-prd'
+    - 'dbinstace:backstage-unified-tools-prd'
