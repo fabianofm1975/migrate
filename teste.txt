@@ -1,1 +1,3 @@
-**/*.tfstate*
+      Teste de variavel multilinhas
+      Esta e uma nova linha
+      E esta e a terceira e ultima linha.
