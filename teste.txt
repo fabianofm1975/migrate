@@ -1,4 +1,4 @@
-name: "teste4-db-stg"
+name: teste4-db-stg
 dbm: false
 host: backstage-unified-tools-prd.cxrgwqogfyf1.us-east-1.rds.amazonaws.com
 port: 5432
