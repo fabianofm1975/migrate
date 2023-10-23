@@ -1,5 +1,5 @@
-name: "teste4-db-stg"
-dbm: false
+name: teste4-db-stg
+dbm: true
 host: backstage-unified-tools-prd.cxrgwqogfyf1.us-east-1.rds.amazonaws.com
 port: 5432
 username: 'ENC[k8s_secret@datadog/postgres-secrets/DATADOG_BACKSTAGE_DB_USER]'
