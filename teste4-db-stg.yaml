@@ -1,0 +1,16 @@
+name: teste4-db-stg
+dbm: false
+host: teste4-db-stg.postgres.database.azure.com
+port: 5432
+username: 'local.env[var.env].postgresql_datadog_user'
+password: 'local.env[var.env].postgresql_datadog_user_password'
+tags:
+    - 'cost-center:820150020'
+    - 'env:production'
+    - 'project:backstage'
+    - 'owner:sre-platform'
+    - 'service:backstage'
+    - 'repository:pagarme-platform-k8s-infrastructure'
+    - 'support:foundation-reliability-payments'
+    - 'dbinstanceidentifier:backstage-unified-tools-prd'
+    - 'dbinstace:backstage-unified-tools-prd'
