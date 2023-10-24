@@ -1,0 +1,14 @@
+name: teste4-db-stg
+dbm: true
+host: teste4-db-stg.postgres.database.azure.com
+port: 5432
+username: datadog
+password: mypass
+tags:
+    - 'cost-center:123456'
+    - 'env:staging'
+    - 'github-org:stone payments'
+    - 'github-repo:testes-infra-cloud-psql'
+    - 'owner:fabiano melo'
+    - 'project:pgsql-flexible-server-module'
+    - 'support:fppd'
