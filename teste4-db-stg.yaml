@@ -1,7 +1,7 @@
 name: teste4-db-stg
-dbm: false
+dbm: true
 host: teste4-db-stg.postgres.database.azure.com
-port: 5433
+port: 5432
 username: datadog
 password: mypass
 tags:
