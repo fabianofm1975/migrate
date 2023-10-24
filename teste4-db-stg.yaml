@@ -1,16 +1,14 @@
 name: teste4-db-stg
-dbm: false
+dbm: true
 host: teste4-db-stg.postgres.database.azure.com
 port: 5432
 username: datadog
 password: mypass
 tags:
-    - 'cost-center:820150020'
-    - 'env:production'
-    - 'project:backstage'
-    - 'owner:sre-platform'
-    - 'service:backstage'
-    - 'repository:pagarme-platform-k8s-infrastructure'
-    - 'support:foundation-reliability-payments'
-    - 'dbinstanceidentifier:backstage-unified-tools-prd'
-    - 'dbinstace:backstage-unified-tools-prd'
+    - 'cost-center:123456'
+    - 'env:staging'
+    - 'github-org:stone payments'
+    - 'github-repo:testes-infra-cloud-psql'
+    - 'owner:fabiano melo'
+    - 'project:pgsql-flexible-server-module'
+    - 'support:fppd'
