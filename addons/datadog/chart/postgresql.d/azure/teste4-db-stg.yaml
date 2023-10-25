@@ -1,5 +1,5 @@
 name: teste4-db-stg
-dbm: true
+dbm: false
 host: teste4-db-stg.postgres.database.azure.com
 port: 5432
 username: datadog
